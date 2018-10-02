@@ -278,7 +278,7 @@ function toNameFace1(n){
 
 	temp = "00"+String(n+1);
 	temp = (temp.length==4) ? temp.substr(1,3) : temp.substr(0,3);
-	str = "<img src=\"./"+temp+".jpg?20180926\"><br>"+str;
+	str = "<img src=\"./"+temp+".jpg\"><br>"+str;
 
 	return str;
 }
@@ -290,7 +290,7 @@ function toNameFace2(n,w){
 
 	temp = "00"+String(n+1);
 	temp = (temp.length==4) ? temp.substr(1,3) : temp.substr(0,3);
-	str = "<img style=\"width:"+w+"px;\" src=\"./"+temp+".jpg?20180926\"><br>"+str;
+	str = "<img style=\"width:"+w+"px;\" src=\"./"+temp+".jpg\"><br>"+str;
 
 	return str;
 }
@@ -302,7 +302,7 @@ function toNameFace3(n,w){
 
 	temp = "00"+String(n+1);
 	temp = (temp.length==4) ? temp.substr(1,3) : temp.substr(0,3);
-	str = "<img style=\"width:"+w+"px;\" src=\"./"+temp+".jpg?20180926\"><br>"+str;
+	str = "<img style=\"width:"+w+"px;\" src=\"./"+temp+".jpg\"><br>"+str;
 
 	return str;
 }
